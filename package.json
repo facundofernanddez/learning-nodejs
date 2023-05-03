@@ -5,7 +5,7 @@
   "main": "calculator.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node ./src/calculator.js",
+    "start": "node ./src/promises.js",
     "dev": "nodemon ./src/calculator.js"
   },
   "keywords": [],
