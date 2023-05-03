@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node ./src/promises.js",
-    "dev": "nodemon ./src/calculator.js"
+    "dev": "nodemon ./src/promises.js"
   },
   "keywords": [],
   "author": "",

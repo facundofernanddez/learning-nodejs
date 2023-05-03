@@ -1,11 +1,8 @@
-import { readFile } from "fs";
-import { promisify } from "util";
-
-const readFilePromise = promisify(readFile);
+import { readFile } from "fs/promises";
 
 const read = async () => {
   try {
-    const result = await readFilePromise("./text.txt", "utf-8");
+    const result = await readFile("./text.txt", "utf-8");
     console.log(result);
   } catch (error) {
     console.log(error);
