@@ -14,3 +14,11 @@ const stream = createReadStream("./src/bigfile.txt");
 stream.on("data", (chunk) => {
   console.log(chunk);
 });
+
+stream.on("end", () => {
+  console.log("finished");
+});
+
+stream.on("error", (err) => {
+  console.log(err);
+});
